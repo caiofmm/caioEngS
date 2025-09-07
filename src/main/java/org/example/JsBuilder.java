@@ -1,0 +1,17 @@
+package com.seuusuario.portfolio;
+
+public class JsBuilder {
+    public static String buildJs() {
+        return """
+            // Exemplo: Smooth scroll para links internos
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            """;
+    }
+}
