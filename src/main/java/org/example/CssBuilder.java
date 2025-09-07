@@ -1,4 +1,4 @@
-package com.seuusuario.portfolio;
+package org.example;
 
 public class CssBuilder {
     public static String buildCss() {

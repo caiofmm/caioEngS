@@ -1,4 +1,4 @@
-package com.seuusuario.portfolio;
+package org.example;
 
 public class JsBuilder {
     public static String buildJs() {
